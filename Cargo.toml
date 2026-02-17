@@ -1,0 +1,11 @@
+[package]
+name = "brown402"
+version = "0.1.0"
+edition = "2026"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "brown402"
+
+[dependencies]
+anchor-lang = "0.30.0"
